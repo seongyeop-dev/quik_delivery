@@ -1,0 +1,86 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+.utmp/
+
+# Nested Unity project generated folders
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/.utmp/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Android / Gradle generated
+.gradle/
+**/.gradle/
+**/gradleBuild/
+**/Il2CppOutputProject/
+**/Bee/
+*.aab
+*.apk
+*.apks
+*.obb
+.ninja_*
+cache-v2-*.json
+cmakeFiles-v1-*.json
+codemodel-v2-*.json
+directory-*.json
+target-*.json
+index-*.json
+
+# Local user data / backups
+**/delivery_records.json
+**/work_sessions.json
+**/app_settings.json
+**/settings.json
+**/backup_*.json
+**/backups/
+
+# Signing and secrets
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+keystore.properties
+local.properties
+
+# Local tools / agents / logs
+.agents/
+*.log
+settlement_rebuild*.log
+
+# Large source archives not required at runtime
+**/nanum-all_new.zip
