@@ -1,0 +1,57 @@
+{
+  "project_id": "quik-delivery",
+  "title": "Quik Delivery",
+  "subtitle": "Unity 기반 배송 업무·수익·월별 정산 관리 Android 앱",
+  "type": "개인 프로젝트",
+  "period": "2026.05 ~ 2026.07",
+  "platform": [
+    "Android"
+  ],
+  "stack": [
+    "Unity",
+    "C#",
+    "Unity uGUI",
+    "TextMeshPro",
+    "JSON",
+    "NativeFilePicker",
+    "Android MediaStore"
+  ],
+  "role": [
+    "기획 및 UI 정보 구조",
+    "배송·근무 데이터 모델과 JSON 저장",
+    "수익·비용·부가세 계산",
+    "기록·통계·달력·정산 UI",
+    "일일 고정비 누락 보정과 중복 방지",
+    "백업·내보내기·복원",
+    "Android APK 빌드"
+  ],
+  "key_problem": "배송이 없는 날짜에는 일일 고정비가 생성되지 않아 월별 비용이 누락되는 문제",
+  "key_solution": "기준일부터 오늘까지 기존 고정비 날짜를 HashSet으로 수집하고 누락 날짜에만 신규 비용 레코드를 추가",
+  "data_policy": "기존 레코드 변경·삭제 없이 신규 보정 레코드만 추가",
+  "status": {
+    "implemented": [
+      "배송·근무 기록 CRUD",
+      "기간별 통계와 달력",
+      "12개월 월별 정산",
+      "누락 고정비 자동 보정",
+      "JSON 전체 백업·복원",
+      "APK 빌드 산출물"
+    ],
+    "todo_validation": [
+      "기존 앱 위 최종 업데이트 설치",
+      "업데이트 후 기존 기록 유지",
+      "첫 실행 누락분만 추가",
+      "두 번째 실행 중복 없음",
+      "Android 실기기 백업 내보내기·복원"
+    ]
+  },
+  "known_issues": [
+    "JSON 변경 시 전체 목록 재저장",
+    "원자적 파일 교체 미적용",
+    "서버·클라우드 동기화 없음",
+    "대용량 외부 에셋 정리 필요"
+  ],
+  "github": "https://github.com/kimseongyeop2811-ux/quik-delivery",
+  "portfolio_weight": "보조 프로젝트 — 실사용 모바일 앱과 데이터 안정화 역량",
+  "representative_image": "images/settlement/monthly-settlement.png"
+}
