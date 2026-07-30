@@ -1,20 +1,14 @@
-# Quik Delivery 문서 목차
+# Quik Delivery 문서
 
-| 번호 | 문서 | 내용 |
-|---:|---|---|
-| 01 | [프로젝트 요약](01-project-summary.md) | 배경, 목표, 범위, 상태 |
-| 02 | [역할과 기여](02-role-and-contribution.md) | 개인 담당 범위와 구현 책임 |
-| 03 | [기술 아키텍처](03-technical-architecture.md) | 계층 구조, 데이터 흐름, 주요 클래스 |
-| 04 | [핵심 기능](04-key-features.md) | 화면과 기능별 구현 내용 |
-| 05 | [문제 해결](05-problem-solving.md) | 상황·원인·해결·결과·배운 점 |
-| 06 | [데이터와 백업](06-data-and-backup.md) | JSON 모델, 보정, 백업·복원, 개인정보 |
-| 07 | [결과와 검증](07-results-and-validation.md) | 구현 상태, QA, Android 확인 항목 |
-| 08 | [회고와 개선](08-retrospective.md) | 한계, 개선 방향, 다음 프로젝트로 이어진 역량 |
+| 문서 | 내용 |
+|---|---|
+| [01-overview.md](01-overview.md) | 프로젝트 배경, 목표, 범위 |
+| [02-architecture.md](02-architecture.md) | 계층형 구조와 컴포넌트 책임 |
+| [03-features.md](03-features.md) | 배송·근무·통계·캘린더·정산 기능 |
+| [04-data-flow.md](04-data-flow.md) | JSON 저장, 집계, 백업·복원 흐름 |
+| [05-validation.md](05-validation.md) | 기능 검증과 Android 실기기 확인 |
+| [06-known-issues.md](06-known-issues.md) | 현재 제한과 개선 방향 |
+| [07-project-structure.md](07-project-structure.md) | 저장소와 Unity 프로젝트 구조 |
+| [demo/README.md](demo/README.md) | 실기기 시연 자료 |
 
-## 표현 기준
-
-- 실제 코드와 Scene에서 확인되는 기능만 작성합니다.
-- 서버·클라우드·외부 DB 기능을 추가하지 않습니다.
-- APK 생성과 기존 앱 업데이트 검증을 구분합니다.
-- 개인 데이터가 담긴 백업·기록 파일은 공개하지 않습니다.
-- 부가세 화면은 입력 데이터 조회·정리 기능이며 공식 세무 계산 서비스로 표현하지 않습니다.
+문서는 실제 저장소 코드와 공개 화면 자료를 기준으로 작성했습니다. 실제 사용자 JSON, 주소, 금액 원본과 APK 파일은 공개 범위에서 제외합니다.
