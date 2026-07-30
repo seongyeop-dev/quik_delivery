@@ -11,7 +11,7 @@ Android 기기에 APK를 설치하고 다음 흐름을 확인했습니다.
 - 부가세 기록
 - 백업 파일 생성과 다운로드 폴더 확인
 
-<!-- QUIK_DELIVERY_DEMO_URL -->
+https://github.com/user-attachments/assets/52ec2404-edb2-441d-b28f-89d596c0a819
 
 ## 화면 자료
 

@@ -28,7 +28,7 @@
 
 Android 기기에 APK를 설치해 배송 입력·수정·삭제, 통계, 캘린더, 월 정산과 백업 파일 생성을 확인했습니다.
 
-<!-- QUIK_DELIVERY_DEMO_URL -->
+https://github.com/user-attachments/assets/52ec2404-edb2-441d-b28f-89d596c0a819
 
 전체 화면 자료는 [실기기 시연 문서](docs/demo/README.md)에서 확인할 수 있습니다.
 
