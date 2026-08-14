@@ -207,15 +207,15 @@ flowchart LR
 
 | 문서 | 내용 |
 |:---|:---|
-| [문서 목차](docs/README.md) | 상세 문서 전체 목차 |
-| [01. Overview](docs/01_overview.md) | 개발 배경, 목적, 구현 범위와 최종 결과 |
-| [02. Architecture](docs/02_architecture.md) | 계층 구조, 주요 구성 요소와 데이터 저장 구조 |
-| [03. Features](docs/03_features.md) | 배송·근무·통계·캘린더·정산과 백업 기능 |
-| [04. Data Flow](docs/04_data_flow.md) | JSON 저장, 정산, 고정비와 백업·복원 흐름 |
-| [05. Validation](docs/05_validation.md) | 기능 검증과 Android 실기기 확인 |
-| [06. Project Scope](docs/06_project_scope.md) | 주요 문제 해결과 최종 구현 범위 |
-| [07. Project Structure](docs/07_project_structure.md) | 저장소와 Unity 프로젝트 구조 |
-| [Android Demo](docs/demo/README.md) | Android 실기기 영상과 화면 자료 |
+| [문서 목록](docs/README.md) | 상세 문서 전체 목차 |
+| [01. 프로젝트 개요](docs/01_overview.md) | 개발 배경, 목적, 구현 범위와 최종 결과 |
+| [02. 시스템 아키텍처](docs/02_architecture.md) | 계층 구조, 주요 구성 요소와 데이터 저장 구조 |
+| [03. 주요 기능](docs/03_features.md) | 배송·근무·통계·캘린더·정산과 백업 기능 |
+| [04. 데이터 흐름](docs/04_data_flow.md) | JSON 저장, 정산, 고정비와 백업·복원 흐름 |
+| [05. 검증 결과](docs/05_validation.md) | 기능 검증과 Android 실기기 확인 |
+| [06. 프로젝트 범위](docs/06_project_scope.md) | 주요 문제 해결과 최종 구현 범위 |
+| [07. 프로젝트 구조](docs/07_project_structure.md) | 저장소와 Unity 프로젝트 구조 |
+| [Android 실기기 시연](docs/demo/README.md) | Android 실기기 영상과 화면 자료 |
 
 ## 공개 범위
 
